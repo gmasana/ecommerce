@@ -201,7 +201,7 @@ body {
 }
 .grid-productos
 {
-  margin: 0 10%;
+  margin: 0 10% 70px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
@@ -299,3 +299,31 @@ body {
 
 
 /* FIN PRODUCTOS */
+
+/*Footer*/
+footer {
+  background-color:#ffd9cc;
+}
+.layout-f {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 10%;
+}
+.layout-f a{
+  text-decoration: none;
+  color:inherit;
+}
+.layout-f div {
+  padding: 20px 0;
+  min-height: 200px;
+}
+.layout-f .social-media{
+  text-align: right;
+}
+.layout-f p.copyright{
+  text-align: center;
+  line-height: 75px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/*FIn Footer*/
